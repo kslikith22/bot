@@ -6,9 +6,9 @@ import 'package:toast/toast.dart';
 
 AppBar appBar({required context}) {
   return AppBar(
-    title: Image.asset(
-      'assets/images/heycoachlogo.png',
-      width: 120,
+    title: Text(
+      "Bot",
+      style: GoogleFonts.lato(color: Colors.white),
     ),
     centerTitle: false,
     actions: [
