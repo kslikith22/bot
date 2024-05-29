@@ -2,7 +2,6 @@ import 'package:bot/core/routes.dart';
 import 'package:bot/data/repository/message_repository.dart';
 import 'package:bot/logic/message_bloc/bloc/message_bloc.dart';
 import 'package:bot/presentation/master_screen/master_screen.dart';
-import 'package:bot/presentation/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

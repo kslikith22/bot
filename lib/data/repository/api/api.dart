@@ -5,7 +5,7 @@ class API {
   final Dio _dio = Dio();
 
   API() {
-    _dio.options.baseUrl = 'http://10.0.2.2:8000/api'; // note : works for emulator only, for debugging on real device use wifi ip address
+    _dio.options.baseUrl = 'http://10.0.2.2:8000/api';
     _dio.interceptors.add(PrettyDioLogger());
   }
 
